@@ -1,0 +1,10 @@
+2015-07-30 23:19:52,026 INFO  [YahooLoginusingLog4j] Browser launched 
+2015-07-30 23:20:11,795 INFO  [YahooLoginusingLog4j] navigated to the url 
+2015-07-30 23:20:12,965 INFO  [YahooLoginusingLog4j] Entered the username 
+2015-07-30 23:20:13,033 INFO  [YahooLoginusingLog4j] Entered the password 
+2015-07-30 23:20:14,798 INFO  [YahooLoginusingLog4j] Clicked on signin 
+2015-07-30 23:21:44,751 INFO  [YahooLoginusingLog4j] Browser launched 
+2015-07-30 23:21:53,100 INFO  [YahooLoginusingLog4j] navigated to the url 
+2015-07-30 23:21:59,330 INFO  [YahooLoginusingLog4j] Entered the username 
+2015-07-30 23:21:59,403 INFO  [YahooLoginusingLog4j] Entered the password 
+2015-07-30 23:22:01,059 INFO  [YahooLoginusingLog4j] Clicked on signin 

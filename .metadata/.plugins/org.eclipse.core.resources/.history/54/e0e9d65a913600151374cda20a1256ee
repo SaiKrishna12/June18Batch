@@ -1,0 +1,25 @@
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Example {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		FirefoxDriver driver=new FirefoxDriver();
+		driver.get("http://expedia.in");
+		driver.findElement(By.id("hotel-1-children")).sendKeys("6");
+		driver.findElement(By.id("hotel-destination")).click();
+		List<WebElement> d=driver.findElement(By.id("hotel-1-children-ages")).findElements(By.tagName("select"));
+		for(int i=0;i<d.size();i++)
+		{
+			d.get(i).sendKeys("16");
+		}
+	}
+
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Newtours Demo suite]">
+  <parameter name="runlevel" value="Y"/>
+  <test name="Links on newtours(failed)">
+    <parameter name="runlevel" value="Y"/>
+    <classes>
+      <class name="day18.Login">
+        <methods>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- day18.Login -->
+      <class name="day18.Links">
+        <methods>
+          <include name="linksTest" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- day18.Links -->
+    </classes>
+  </test> <!-- Links on newtours(failed) -->
+</suite> <!-- Failed suite [Newtours Demo suite] -->
